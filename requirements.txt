@@ -1,6 +1,2 @@
 python-dotenv
 aiogram
-datetime
-asyncio 
-os
-routers
