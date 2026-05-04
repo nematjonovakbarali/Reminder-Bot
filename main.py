@@ -17,9 +17,6 @@ async def main():
     dp.include_router(removenote.router)
     dp.include_router(admin.router)
     
-
-    
-
     asyncio.create_task(check_reminders(bot))
     try:
         print("Bot is running...")
